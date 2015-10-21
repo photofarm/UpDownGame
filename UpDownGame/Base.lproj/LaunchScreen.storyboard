@@ -26,8 +26,8 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5gU-Yf-hTg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="M3h-v2-LZa"/>
-                            <constraint firstItem="5gU-Yf-hTg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Poa-Yn-eLY"/>
+                            <constraint firstItem="5gU-Yf-hTg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7rQ-Yj-gvt"/>
+                            <constraint firstItem="5gU-Yf-hTg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LL2-x0-ouJ"/>
                         </constraints>
                     </view>
                 </viewController>

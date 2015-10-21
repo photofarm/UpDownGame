@@ -34,47 +34,64 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I4u-Ub-gPn">
-                                <rect key="frame" x="20" y="103" width="531" height="2"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I4u-Ub-gPn">
+                                <rect key="frame" x="20" y="103" width="515" height="2"/>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-1J-Pez">
-                                <rect key="frame" x="554" y="93" width="26" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-1J-Pez">
+                                <rect key="frame" x="543" y="93" width="37" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opm-sK-FYf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opm-sK-FYf">
                                 <rect key="frame" x="550" y="122" width="30" height="30"/>
                                 <state key="normal" title=" 확인"/>
                                 <connections>
                                     <action selector="button확인:" destination="BYZ-38-t0r" eventType="touchUpInside" id="niq-jm-iXn"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gK2-6f-PO4">
-                                <rect key="frame" x="20" y="122" width="522" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gK2-6f-PO4">
+                                <rect key="frame" x="20" y="122" width="515" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHR-0N-jP5">
+                                <rect key="frame" x="290" y="160" width="21" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pI7-nV-Cbp">
+                                <rect key="frame" x="272" y="189" width="56" height="30"/>
+                                <state key="normal" title="게임 시작"/>
+                                <connections>
+                                    <action selector="button게임시작:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dP7-RS-kGq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NQp-1J-Pez" firstAttribute="top" secondItem="z4W-br-gvx" secondAttribute="bottom" constant="8" symbolic="YES" id="1fF-7M-aus"/>
-                            <constraint firstItem="Opm-sK-FYf" firstAttribute="trailing" secondItem="NQp-1J-Pez" secondAttribute="trailing" id="2SK-6j-Njp"/>
-                            <constraint firstItem="NQp-1J-Pez" firstAttribute="centerY" secondItem="I4u-Ub-gPn" secondAttribute="centerY" id="5WP-4f-UUb"/>
-                            <constraint firstItem="97M-PW-axg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8j0-q2-LUN"/>
-                            <constraint firstItem="97M-PW-axg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9kz-By-yCo"/>
-                            <constraint firstItem="Opm-sK-FYf" firstAttribute="top" secondItem="NQp-1J-Pez" secondAttribute="bottom" constant="8" symbolic="YES" id="A82-US-PuD"/>
-                            <constraint firstItem="Opm-sK-FYf" firstAttribute="leading" secondItem="gK2-6f-PO4" secondAttribute="trailing" constant="8" id="Bcg-E7-QbA"/>
-                            <constraint firstItem="gK2-6f-PO4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FTw-Zv-FKF"/>
-                            <constraint firstItem="I4u-Ub-gPn" firstAttribute="leading" secondItem="z4W-br-gvx" secondAttribute="leading" id="Lnc-B6-EGs"/>
-                            <constraint firstItem="97M-PW-axg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ne5-iC-5QC"/>
+                            <constraint firstItem="pI7-nV-Cbp" firstAttribute="top" secondItem="DHR-0N-jP5" secondAttribute="bottom" constant="8" symbolic="YES" id="0fR-QI-Reg"/>
+                            <constraint firstItem="NQp-1J-Pez" firstAttribute="top" secondItem="z4W-br-gvx" secondAttribute="bottom" constant="8" symbolic="YES" id="2a1-4E-wvF"/>
+                            <constraint firstItem="pI7-nV-Cbp" firstAttribute="centerX" secondItem="DHR-0N-jP5" secondAttribute="centerX" id="4U0-rf-9GY"/>
+                            <constraint firstItem="z4W-br-gvx" firstAttribute="trailing" secondItem="97M-PW-axg" secondAttribute="trailing" id="9tC-xG-dhs"/>
+                            <constraint firstItem="Opm-sK-FYf" firstAttribute="top" secondItem="gK2-6f-PO4" secondAttribute="top" id="B5G-5z-ctN"/>
+                            <constraint firstItem="97M-PW-axg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Fbm-Zv-CiI"/>
+                            <constraint firstItem="z4W-br-gvx" firstAttribute="trailing" secondItem="NQp-1J-Pez" secondAttribute="trailing" id="GZb-ZI-F1B"/>
+                            <constraint firstItem="gK2-6f-PO4" firstAttribute="leading" secondItem="I4u-Ub-gPn" secondAttribute="leading" id="HDh-tZ-KZM"/>
+                            <constraint firstItem="gK2-6f-PO4" firstAttribute="trailing" secondItem="I4u-Ub-gPn" secondAttribute="trailing" id="KB8-6q-hnz"/>
+                            <constraint firstItem="97M-PW-axg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Lxj-jL-qaq"/>
+                            <constraint firstItem="Opm-sK-FYf" firstAttribute="trailing" secondItem="NQp-1J-Pez" secondAttribute="trailing" id="PsL-rh-8Vu"/>
+                            <constraint firstItem="DHR-0N-jP5" firstAttribute="centerX" secondItem="z4W-br-gvx" secondAttribute="centerX" id="WHI-IK-Gf6"/>
                             <constraint firstItem="z4W-br-gvx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XjR-eG-wqr"/>
-                            <constraint firstItem="NQp-1J-Pez" firstAttribute="leading" secondItem="I4u-Ub-gPn" secondAttribute="trailing" constant="8" symbolic="YES" id="Ym2-Gh-S92"/>
-                            <constraint firstItem="NQp-1J-Pez" firstAttribute="trailing" secondItem="z4W-br-gvx" secondAttribute="trailing" id="dEk-Tr-imF"/>
-                            <constraint firstItem="z4W-br-gvx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j8Z-Y0-VhA"/>
-                            <constraint firstItem="z4W-br-gvx" firstAttribute="top" secondItem="97M-PW-axg" secondAttribute="bottom" constant="8" id="pf6-AY-8a9"/>
-                            <constraint firstItem="z4W-br-gvx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qp2-4W-bkA"/>
-                            <constraint firstItem="gK2-6f-PO4" firstAttribute="top" secondItem="I4u-Ub-gPn" secondAttribute="bottom" constant="17" id="sN2-rD-jiA"/>
+                            <constraint firstItem="z4W-br-gvx" firstAttribute="leading" secondItem="97M-PW-axg" secondAttribute="leading" id="XzC-Xn-zet"/>
+                            <constraint firstItem="I4u-Ub-gPn" firstAttribute="leading" secondItem="z4W-br-gvx" secondAttribute="leading" id="bsG-fZ-CJo"/>
+                            <constraint firstItem="DHR-0N-jP5" firstAttribute="top" secondItem="gK2-6f-PO4" secondAttribute="bottom" constant="8" symbolic="YES" id="d08-Qj-C5F"/>
+                            <constraint firstItem="I4u-Ub-gPn" firstAttribute="centerY" secondItem="NQp-1J-Pez" secondAttribute="centerY" id="fmd-Ai-cjC"/>
+                            <constraint firstItem="97M-PW-axg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="g9j-Qx-ibj"/>
+                            <constraint firstItem="NQp-1J-Pez" firstAttribute="leading" secondItem="I4u-Ub-gPn" secondAttribute="trailing" constant="8" symbolic="YES" id="ilb-Dg-gTa"/>
+                            <constraint firstItem="z4W-br-gvx" firstAttribute="top" secondItem="97M-PW-axg" secondAttribute="bottom" constant="8" symbolic="YES" id="lqw-Up-Zhy"/>
+                            <constraint firstItem="gK2-6f-PO4" firstAttribute="top" secondItem="I4u-Ub-gPn" secondAttribute="bottom" constant="17" id="mrv-kx-qr5"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -85,6 +102,7 @@
                     <connections>
                         <outlet property="label도전횟수" destination="NQp-1J-Pez" id="k7h-ow-nt8"/>
                         <outlet property="label메시지" destination="z4W-br-gvx" id="o3e-pf-3lE"/>
+                        <outlet property="label타이머" destination="DHR-0N-jP5" id="cIb-qR-0i2"/>
                         <outlet property="progress도전횟수" destination="I4u-Ub-gPn" id="A6B-GH-3Kc"/>
                         <outlet property="segment게임선택" destination="97M-PW-axg" id="eEz-gV-Nqb"/>
                         <outlet property="text사용자입력" destination="gK2-6f-PO4" id="5Si-9Y-Mbb"/>
@@ -92,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304" y="387"/>
+            <point key="canvasLocation" x="353" y="331"/>
         </scene>
     </scenes>
 </document>
