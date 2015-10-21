@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // 수정
     var 최대횟수 = 5
     var 시도횟수 = 0
     var 컴퓨터가선택한값 = 0
